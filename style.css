@@ -687,3 +687,207 @@ li{
     position: absolute;
     float: left;
 }
+
+/* About */
+.about-content{
+    width: 100%;
+    height: 575px;
+    float: left;
+    margin-bottom: 150px;
+}
+.card-lef{
+    width: 340px;
+    height: 360px;
+    margin-left: 15%;
+    margin-right: 5%;
+    float: left;
+}
+.card-rig{
+    width: 575px;
+    height: 575px;
+    background: #b7dfffee;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    float: right;
+}
+.card-cale1{
+    width: 276px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale2{
+    width: 276px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: 270px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale3{
+    width: 276px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: 440px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale4{
+    width: 276px;
+    height: 160px;
+    margin-left: 410px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale5{
+    width: 276px;
+    height: 160px;
+    margin-left: 410px;
+    margin-top: 270px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale6{
+    width: 276px;
+    height: 160px;
+    margin-left: 410px;
+    margin-top: 440px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+
+
+
+/* Pricing */
+.price{
+    text-align: center;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100%;
+}
+.price-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+.price-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.price-text2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: -10px;
+    
+}
+.card1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+    background: #b7dfffee;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card2 {
+    width: 300px;
+    height: 300px;
+    outline-width: 20px;
+    outline-color: #234CAD;
+    text-align: center;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+    background: #fff;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card3 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+    background: #b7dfffee;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* contact */
+.contact-card{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 13%;
+    margin-bottom: 11.01%;
+    width: 90%;
+    position: center;
+    height: 300px;
+    background: #b7dfffee;
+    border-radius: 60px;
+    float: center;
+    text-align: center;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+.newslet{
+    text-align: center;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+
+/* footer */
+.cardcop {
+    text-align: left;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+.cardpro {
+    text-align: left;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+.cardabo {
+    text-align: left;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+.cardsup {
+    text-align: left;
+    color: #234CAD;
+    font-style: normal;
+    font-family: 'Nunito';
+}
