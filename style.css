@@ -28,13 +28,13 @@ li{
 #home{
     color:  #33CCCC;
 }
-#product{
+#produk{
     color:  #33CCCC;
 }
-#about{
+#tentang{
     color:  #33CCCC;
 }
-#contact{
+#kontak{
     color:  #33CCCC;
 }
 .navbar-button button{
@@ -49,7 +49,7 @@ li{
     line-height: 29px;
 }
 .login-button{
-    width: 135px;
+    width: 100px;
     height: 50px;
     border: 2px solid #33CCCC;
     border-radius: 25px;
@@ -58,12 +58,12 @@ li{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 20px;
     text-align: center;
     color: #33CCCC;
 }
 .signUp-button{
-    width: 135px;
+    width: 100px;
     height: 50px;
     background: #BDFBFB;
     border-radius: 25px;
@@ -73,10 +73,10 @@ li{
     margin-right: -37px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 20px;
     text-align: center;
     color: #33CCCC;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 
@@ -86,6 +86,7 @@ li{
     height: 611px;
     border-radius: 60px;
     margin-top: 50px; 
+    width: 100%;
 }
 .card-left{
     width: 375px;
@@ -127,15 +128,15 @@ li{
     background-color: #fff;
     margin-top: 25px;
 }
-/* text main title */
-h3{
+/* text  title */
+h5{
     position: relative;
     font-size: 10vw;
     color: #014b4b;
     -webkit-text-stroke: 0.3vw #33CCCC;
     text-transform: uppercase;
-}
-h3::before{
+} 
+h5::before{
     content:attr(data-text);
     position: absolute;
     top: 0;
@@ -160,12 +161,13 @@ h3::before{
 .card-right{
     width: 800px;
     height: 550px;
+
 }
 /* card one */
 .card-1{
     width: 75px;
     height: 75px;
-    margin-left: 575px;
+    margin-left: 475px;
     background: #FFFFFF;
     border-radius: 20px;
     float: left;
@@ -181,7 +183,7 @@ h3::before{
 .card-2{
     width: 300px;
     height: 100px;
-    margin-left: 575px;
+    margin-left: 475px;
     position: absolute;
     margin-top: 136px;
     float: left;
@@ -296,7 +298,7 @@ h3::before{
 .card-3{
     width: 130px;
     height: 160px;
-    margin-left: 920px;
+    margin-left: 820px;
     position: absolute;
     margin-top: 76px;
     float: left;
@@ -308,7 +310,7 @@ h3::before{
 .card-4{
     width: 250px;
     height: 160px;
-    margin-left: 575px;
+    margin-left: 475px;
     position: absolute;
     margin-top: 261px;
     float: left;
@@ -321,7 +323,7 @@ h3::before{
     width: 300px;
     height: 100px;
     margin-top: 261px;
-    margin-left: 856px;
+    margin-left: 756px;
     position: absolute;
     float: left;
     background: #FFFFFF;
@@ -333,7 +335,7 @@ h3::before{
     width: 300px;
     height: 100px;
     margin-top: 446px;
-    margin-left: 575px;
+    margin-left: 475px;
     position: absolute;
     float: left;
     background: #FFFFFF;
@@ -343,7 +345,7 @@ h3::before{
     width: 300px;
     height: 100px;
     margin-top: 386px;
-    margin-left: 910px;
+    margin-left: 810px;
     position:absolute;
     float: left;
     background: #FFFFFF;
@@ -353,7 +355,7 @@ h3::before{
     width: 75px;
     height: 75px;
     margin-top: 520px;
-    margin-left: 900px;
+    margin-left: 800px;
     position: absolute;
     float: left;
     background: #FFFFFF;
@@ -620,10 +622,11 @@ h3::before{
     font-family: 'Nunito';
     font-style: normal;
 }
-.main-tittle{
+.main-tittle-2{
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
+   
 }
 .body-text{
     font-weight: 400;
