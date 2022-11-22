@@ -125,7 +125,7 @@ li{
     line-height: 36px;
     text-align: center;
     color: #33CCCC;
-    background-color: #BDFBFB;
+    background-color: #fff;
     margin-top: 25px;
 }
 /* text  title */
@@ -747,14 +747,13 @@ h5::before{
 .card-lef{
     width: 340px;
     height: 360px;
-    margin-left: 15%;
-    margin-right: 5%;
     float: left;
+    position: absolute;
 }
 .card-rig{
     width: 575px;
     height: 575px;
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 60px;
     margin-left: 5%;
     margin-right: 15%;
@@ -827,7 +826,7 @@ h5::before{
 /* Pricing */
 .price{
     text-align: center;
-    color: #234CAD;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
     margin-left: 5%;
@@ -854,38 +853,36 @@ h5::before{
 }
 .card1 {
     width: 300px;
-    height: 300px;
+    height: 320px;
     text-align: center;
-    color: #234CAD;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 60px;
     margin-left: 5%;
     margin-right: 5%;
 }
 .card2 {
     width: 300px;
-    height: 300px;
-    outline-width: 20px;
-    outline-color: #234CAD;
+    height: 320px;
     text-align: center;
-    color: #234CAD;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
-    background: #fff;
+    background: #BDFBFB;
     border-radius: 60px;
     margin-left: 5%;
     margin-right: 5%;
 }
 .card3 {
     width: 300px;
-    height: 300px;
+    height: 320px;
     text-align: center;
-    color: #234CAD;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 60px;
     margin-left: 5%;
     margin-right: 5%;
@@ -900,43 +897,67 @@ h5::before{
     width: 90%;
     position: center;
     height: 300px;
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 60px;
     float: center;
     text-align: center;
-    color: #234CAD;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
 .newslet{
     text-align: center;
-    color: #234CAD;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
 
 /* footer */
-.cardcop {
-    text-align: left;
-    color: #234CAD;
+#benefit {
+    text-align: center;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardpro {
-    text-align: left;
-    color: #234CAD;
+#feedback {
+    text-align: center;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardabo {
-    text-align: left;
-    color: #234CAD;
+#features {
+    text-align: center;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardsup {
-    text-align: left;
-    color: #234CAD;
+#company {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#team {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#gethelp {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#termofservice {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#copirek {
+    text-align: center;
+    color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
