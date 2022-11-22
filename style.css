@@ -633,14 +633,14 @@ h5::before{
     font-size: 16px;
     line-height: 26px;
     padding-top: 20px;
-    color:#000000;
+    color: #33CCCC;
 }
 .body-text2{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin-top: -10px;
-    color:#000000;
+    color: #33CCCC;
     
 }
 .content-features-2{
@@ -955,6 +955,7 @@ h5::before{
     font-style: normal;
     font-family: 'Nunito';
 }
+
 #copirek {
     text-align: center;
     color: #33CCCC;
