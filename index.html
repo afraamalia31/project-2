@@ -89,7 +89,7 @@
                 <h5 class="main-text" data-text="G.R Hospital Yogyakarta">G.R Hospital Yogyakarta</h5>
                 <p class="second-text">Hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the treatment, both medical and surgical, of the sick and the injured; and for their housing during this process.</p>
 
-                <button class="get-button">Get the app</button>
+                <button class="get-button" id="app">Get the app</button>
             </div>
             <div class="card-right">
                 <section class="card-1">
@@ -198,7 +198,7 @@
             <h1 class="main-text">How Care For Your Hearth</h1>
             <p class="second-text">Some websites (like SparkPeople) and smart phone applications offer free calorie counters, workout trackers, and personalized diet and fitness plans.</p>
 
-            <button class="get-button-2">Take Care</button>
+            <button class="get-button-2" id="care">Take Care</button>
           
         </div>
       </div>
@@ -276,7 +276,7 @@
           <h1 class="main-text">Talk with us about your health problem</h1>
             <p class="second-text">Our app is the great way for you to start getting more to know about your health.</p>
 
-            <button class="get-button-2">More</button>
+            <button class="get-button-2" onclick="Swal.fire('Consultants with us to learn more about your health problems');">More</button>
         </div>
         <div class="card-rig col-6 ms-5 m-6 p-0">
           <section class="card-cale1">
@@ -350,7 +350,7 @@
         <h4>per month</h4>
         <br>
         <h6>More simple scheduling for consultation</h6>
-        <button class="get-button">Get Started</button>
+        <button class="get-button" onclick="Swal.fire('Book Basic Now..!');">Get Started</button>
       </div>
       <div class="card2 text-center col-3 ms-5 m-3 p-0">
         <br>
@@ -359,7 +359,7 @@
         <h4>per month</h4>
         <br>
         <h6>Consultation in Weekends</h6>
-        <button class="get-button">Get Started</button>
+        <button class="get-button" onclick="Swal.fire('Book Premium Now..!');">Get Started</button>
       </div>
       <div class="card3 text-center col-3 ms-5 m-3 p-0">
         <br>
@@ -368,7 +368,7 @@
         <h4>per month</h4>
         <br>
         <h6>Consultation everytime and everywhere</h6>
-        <button class="get-button">Get Started</button>
+        <button class="get-button" onclick="Swal.fire('Book Enterprise Now..!');">Get Started</button>
       </div>
     </div>
       
@@ -385,7 +385,7 @@
           <div class="search">
             <i class="fa fa-search"></i>
             <input type="text" class="form-control" placeholder="Enter your email Address">
-            <button class="get-button">Submit</button>
+            <button class="get-button" onclick="Swal.fire('Data successfully submit');">Submit</button>
           </div>
           
         </div>
@@ -397,7 +397,7 @@
     <footer>
       <div class="row mt-5 justify-content-center">
         <div class="cardcop text-center col-2 ms-5 m-2 p-0">
-          <h3>grhealth.io</h3>
+          <h3>Grhealth.io</h3>
           <br><br>
           <p id="copirek">
             &copy; Copyright 2022. All Rights Reserved
@@ -444,7 +444,7 @@
 
 
     <script>
-      const buttons = document.querySelectorAll('.get-button');
+      const buttons = document.querySelectorAll('#app');
 
       buttons.forEach(button => {
         button.addEventListener('click', clickMe)
@@ -457,7 +457,7 @@
         });
       }
 
-      const buttons2 = document.querySelectorAll('.get-button-2');
+      const buttons2 = document.querySelectorAll('#care');
 
       buttons2.forEach(button => {
         button.addEventListener('click', clickApp)
