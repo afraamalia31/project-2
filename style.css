@@ -1,9 +1,6 @@
-/* body{
-    font-family: 'PT Sans', sans-serif;
-} */
 /* Navbar */
 .navbar-nav{
-    color: #0d6efd;
+    color: #33CCCC;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -11,28 +8,40 @@
     line-height: 50px;   
 }
 .navbar-brand {
-    color: #0D6EFD;
+    color: #33CCCC;
 }
 .navbar-nav{
-    color: #0D6EFD;
+    color: #33CCCC;
 }
 .nav-link{
-    color: #0D6EFD;
+    color: #33CCCC;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
 }
 li{
-    color:  #0D6EFD;
+    color:  #33CCCC;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
+}
+#home{
+    color:  #33CCCC;
+}
+#product{
+    color:  #33CCCC;
+}
+#about{
+    color:  #33CCCC;
+}
+#contact{
+    color:  #33CCCC;
 }
 .navbar-button button{
     width: 135px;
     height: 50px;
     border-radius: 25px;
-    color: #0D6EFD;
+    color: #33CCCC;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -42,7 +51,7 @@ li{
 .login-button{
     width: 135px;
     height: 50px;
-    border: 2px solid #0D6EFD;
+    border: 2px solid #33CCCC;
     border-radius: 25px;
     background-color: white;
     font-family: 'Rubik', sans-serif;
@@ -51,12 +60,12 @@ li{
     font-size: 18px;
     line-height: 29px;
     text-align: center;
-    color: #0d6efd;
+    color: #33CCCC;
 }
 .signUp-button{
     width: 135px;
     height: 50px;
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 25px;
     border: white;
     font-family: 'Rubik', sans-serif;
@@ -66,14 +75,14 @@ li{
     font-size: 18px;
     line-height: 29px;
     text-align: center;
-    color: #0d6efd;
+    color: #33CCCC;
     margin-left: 25px;
 }
 
 
 /* Content */
 .main-card{
-    background-color:#b7dfffee;
+    background-color:#BDFBFB;
     height: 611px;
     border-radius: 60px;
     margin-top: 50px; 
@@ -89,21 +98,22 @@ li{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 42px;
     line-height: 56px;
-    color: #0D6EFD;
+    color: #33CCCC;
    
 }   
 .second-text{
-    font-family: 'Nunito';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #0D6EFD;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    color: #000000;
 }
 .get-button{
-    border: 2px solid #234CAD;
+    border: 2px solid #33CCCC;
     border-radius: 32.5px;
     width: 200px;
     height: 65px;
@@ -113,9 +123,38 @@ li{
     font-size: 22px;
     line-height: 36px;
     text-align: center;
-    color: #234CAD;
-    background-color: #b7dfffee;
-    margin-top: 50px;
+    color: #33CCCC;
+    background-color: #BDFBFB;
+    margin-top: 25px;
+}
+/* text main title */
+h3{
+    position: relative;
+    font-size: 10vw;
+    color: #014b4b;
+    -webkit-text-stroke: 0.3vw #33CCCC;
+    text-transform: uppercase;
+}
+h3::before{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #083d24;
+    -webkit-text-stroke: 0vw #05e3fc;
+    border-right: 2px solid #125c39;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
 }
 /* card right */
 .card-right{
@@ -161,7 +200,7 @@ li{
     margin-left: 93px;
     margin-top: 15px;
     float: left;
-    color:#234CAD;
+    color:#33CCCC;
 }
 .text-one{
     font-family: 'Nunito';
@@ -171,14 +210,16 @@ li{
     line-height: 21px;
     padding-top: 10px;
     position: absolute;
+    
 }
 .text-two{
-    font-family: 'Nunito';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
     margin-top: 35px;
+    color:#060606;
 }
 .text-three{
     margin-top: 12px;
@@ -188,7 +229,7 @@ li{
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    color: #234CAD;
+    color: #33CCCC;
     mix-blend-mode: normal;
     opacity: 0.75;
     position: absolute;
@@ -200,7 +241,7 @@ li{
     float: left;
 }
 .get-button-2{
-    border: 2px solid #0D6EFD;
+    border: 2px solid #33CCCC ;
     border-radius: 32.5px;
     width: 200px;
     height: 65px;
@@ -210,18 +251,18 @@ li{
     font-size: 22px;
     line-height: 36px;
     text-align: center;
-    color:#0D6EFD;
+    color:#33CCCC;
     background-color:white;
     margin-top: 50px;
 }
 .text-single{
-    font-family: 'Nunito';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 21px;
     margin-top: 110px;
-    color:#234CAD;
+    color:#000000;
     margin-left: 20.46%;
     margin-right: 1.11%;
     float: left;
@@ -351,7 +392,7 @@ li{
     font-size: 30px;
     position: absolute;
     line-height: 49px;
-    color: #0D6EFD;
+    color: #33CCCC;
     padding-top: 10px;
 
 }
@@ -360,7 +401,7 @@ li{
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    color: #0D6EFD;
+    color: #000000;
     margin-top:55px;
     line-height: 36px;
 }
@@ -394,7 +435,7 @@ li{
 .card-lf{
     width: 575px;
     height: 575px;
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 60px;
     margin-left: 112px;
     float: left;
@@ -450,7 +491,7 @@ li{
     margin-left: 125px;
     margin-top: 25px;
     float: left;
-    color:#234CAD;
+    color:#33CCCC;
 }
 .text-header{
     font-family: 'Nunito';
@@ -468,6 +509,7 @@ li{
     font-size: 15px;
     line-height: 26px;
     margin-top: 40px;
+    color:#000000;
 }
 .text-clock{
     margin-top: 15px;
@@ -477,7 +519,7 @@ li{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #234CAD;
+    color: #33CCCC;
     mix-blend-mode: normal;
     opacity: 0.75;
     position: absolute;
@@ -490,7 +532,7 @@ li{
     margin-left: 100px;
     margin-top: 20px;
     float: left;
-    color:#234CAD;
+    color:#33CCCC;
 }
 .text-header-2{
     font-family: 'Nunito';
@@ -508,6 +550,7 @@ li{
     font-size: 12px;
     line-height: 21px;
     margin-top: 30px;
+    color:#000000;
 }
 .text-clock-2{
     margin-top: 7px;
@@ -517,7 +560,7 @@ li{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #234CAD;
+    color: #33CCCC;
     mix-blend-mode: normal;
     opacity: 0.75;
     position: absolute;
@@ -535,7 +578,7 @@ li{
     margin-left: 80px;
     margin-top: 10px;
     float: left;
-    color:#234CAD;
+    color:#33CCCC;
 }
 .text-header-3{
     font-family: 'Nunito';
@@ -553,6 +596,7 @@ li{
     font-size: 9px;
     line-height: 16px;
     margin-top: 28px;
+    color:#000000;
 }
 .text-clock-3{
     margin-top: 9px;
@@ -562,7 +606,7 @@ li{
     font-weight: 400;
     font-size: 7px;
     line-height: 10px;
-    color: #234CAD;
+    color: #33CCCC;
     mix-blend-mode: normal;
     opacity: 0.75;
     position: absolute;
@@ -572,7 +616,7 @@ li{
 /* Product Features 2 */
 .main-body{
     text-align: center;
-    color: #0D6EFD;
+    color: #33CCCC;
     font-family: 'Nunito';
     font-style: normal;
 }
@@ -586,12 +630,14 @@ li{
     font-size: 16px;
     line-height: 26px;
     padding-top: 20px;
+    color:#000000;
 }
 .body-text2{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin-top: -10px;
+    color:#000000;
     
 }
 .content-features-2{
@@ -602,7 +648,7 @@ li{
     width: 100%;
     position: relative;
     height: 575px;
-    background: #b7dfffee;
+    background: #BDFBFB;
     border-radius: 60px;
     float: left;
 }
@@ -618,7 +664,7 @@ li{
     float: left;
 }
 .card-people-1{
-    width: 300px;
+    width: 330px;
     height: 100px;
     margin-left: 573px;
     margin-top: 30px;
