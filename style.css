@@ -124,7 +124,7 @@ li{
     line-height: 36px;
     text-align: center;
     color: #33CCCC;
-    background-color: #BDFBFB;
+    background-color: #fff;
     margin-top: 25px;
 }
 /* text main title */
@@ -850,7 +850,7 @@ h3::before{
 }
 .card1 {
     width: 300px;
-    height: 300px;
+    height: 320px;
     text-align: center;
     color: #33CCCC;
     font-style: normal;
@@ -862,7 +862,7 @@ h3::before{
 }
 .card2 {
     width: 300px;
-    height: 300px;
+    height: 320px;
     text-align: center;
     color: #33CCCC;
     font-style: normal;
@@ -874,7 +874,7 @@ h3::before{
 }
 .card3 {
     width: 300px;
-    height: 300px;
+    height: 320px;
     text-align: center;
     color: #33CCCC;
     font-style: normal;
@@ -910,6 +910,12 @@ h3::before{
 }
 
 /* footer */
+.footertext {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
 .cardcop {
     text-align: left;
     color: #33CCCC;
