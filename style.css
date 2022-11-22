@@ -744,9 +744,8 @@ h3::before{
 .card-lef{
     width: 340px;
     height: 360px;
-    margin-left: 15%;
-    margin-right: 5%;
     float: left;
+    position: absolute;
 }
 .card-rig{
     width: 575px;
