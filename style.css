@@ -910,32 +910,50 @@ h3::before{
 }
 
 /* footer */
-.footertext {
+#benefit {
     text-align: center;
     color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardcop {
-    text-align: left;
+#feedback {
+    text-align: center;
     color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardpro {
-    text-align: left;
+#features {
+    text-align: center;
     color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardabo {
-    text-align: left;
+#company {
+    text-align: center;
     color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
 }
-.cardsup {
-    text-align: left;
+#team {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#gethelp {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#termofservice {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#copirek {
+    text-align: center;
     color: #33CCCC;
     font-style: normal;
     font-family: 'Nunito';
